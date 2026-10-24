@@ -1,10 +1,23 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>多平台发布插件</title><style>*{box-sizing:border-box}body{margin:0;width:1040px;height:700px;background:#f4f5f7;font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:#1d2129;padding:36px}
-.card{background:#fff;border-radius:20px;height:628px;padding:40px 48px;box-shadow:0 2px 14px rgba(0,0,0,.06);position:relative;display:flex;flex-direction:column;overflow:hidden}
-.brand{position:absolute;right:32px;top:24px;font-size:13px;color:#8a919c}
-h1{margin:0 0 12px;font-size:36px;font-weight:700}
-.desc{font-size:16px;line-height:1.6;color:#4e5560;margin:0 0 22px}
-h2{font-size:15px;color:#ff6a1a;margin:0 0 10px;letter-spacing:1px}
-ol{margin:0;padding:0;list-style:none;counter-reset:n}
-li{counter-increment:n;display:flex;gap:14px;font-size:16px;line-height:1.55;margin-bottom:12px}
-li:before{content:counter(n);flex:none;width:26px;height:26px;border-radius:50%;background:#fff1e8;color:#ff6a1a;font-weight:700;font-size:14px;text-align:center;line-height:26px;margin-top:1px}
-.fmt{margin-top:auto;background:#f4f5f7;border-radius:12px;padding:14px 18px;font-size:14px;line-height:1.5;color:#4e5560}.fmt b{color:#1d2129}</style><body><div class="card"><div class="brand">篝火出品</div><h1>多平台发布插件</h1><p class="desc">写一次内容，在浏览器里一键同步发布到知乎、微博、小红书、抖音等多个平台。</p><h2>怎么用</h2><ol><li><span>下载 zip 并解压到一个固定文件夹</span></li><li><span>浏览器打开扩展管理页，打开「开发者模式」</span></li><li><span>点「加载已解压的扩展程序」，选择解压后的文件夹</span></li><li><span>先在浏览器里登录目标平台，再用插件选平台发布</span></li></ol><div class="fmt"><b>交付形式　</b>Chrome / Edge 扩展包（.zip，社区版，开发者模式加载）</div></div></body></html>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>多平台发布插件</title><style>
+*{box-sizing:border-box}body{margin:0;width:1040px;height:700px;font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;color:#3a1030;background:#fdf1f8;position:relative;overflow:hidden}
+h1{position:absolute;left:44px;top:34px;margin:0;font-size:34px;color:#D31791}
+.sub{position:absolute;left:44px;top:84px;font-size:15px;color:#7a4a6c;width:520px;line-height:1.6}
+.tag{position:absolute;left:44px;top:150px;font-size:13px;color:#D31791;background:#fbd9ee;border-radius:20px;padding:6px 14px}
+.bro{position:absolute;right:44px;top:34px;width:330px;height:632px;background:#fafafa;border:1px solid #efc3e0;border-radius:14px;box-shadow:0 14px 40px rgba(211,23,145,.22);overflow:hidden}
+.bro .u{height:34px;background:#fbe6f3;display:flex;align-items:center;padding:0 12px;font-size:12px;color:#8a4a78;gap:6px}.bro .u i{width:9px;height:9px;border-radius:50%;background:#e9a9d2}
+.bro img{display:block;width:100%}
+.bento{position:absolute;left:44px;top:206px;width:610px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.n{background:#fff;border-radius:16px;padding:16px 14px;box-shadow:0 2px 12px rgba(211,23,145,.1)}
+.n b{display:block;font-size:40px;line-height:1;color:#D31791}.n span{display:block;margin-top:6px;font-size:14px;color:#5a3050}
+.st{grid-column:span 4;background:#D31791;color:#fff;border-radius:16px;padding:16px 20px;display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.5}
+.st div{display:flex;gap:10px}.st em{flex:none;width:24px;height:24px;border-radius:50%;background:#fff;color:#D31791;font-style:normal;font-weight:700;font-size:13px;text-align:center;line-height:24px}
+.ft{grid-column:span 4;background:#fff;border-radius:16px;padding:14px 18px;font-size:13.5px;line-height:1.65;color:#5a3050;border:1px dashed #efb3d8}
+</style><body>
+<h1>多平台发布插件</h1><div class="sub">写一次内容，浏览器里一键同步发到多个平台。界面跟随浏览器语言，Chrome 设为中文即是中文。</div><div class="tag">浏览器插件 · 免费 · 无需注册</div>
+<div class="bento">
+<div class="n"><b>31</b><span>动态平台</span></div><div class="n"><b>41</b><span>文章平台</span></div><div class="n"><b>30</b><span>视频平台</span></div><div class="n"><b>7</b><span>播客平台</span></div>
+<div class="st"><div><em>1</em><span>解压 zip，Chrome 打开 chrome://extensions，开启「开发者模式」</span></div><div><em>2</em><span>点「加载已解压的扩展程序」，选择解压后的文件夹</span></div><div><em>3</em><span>先在同一浏览器登录目标平台，再点插件图标开始发布</span></div></div>
+<div class="ft">右侧是插件侧边栏的真实界面：同步任务打开的标签页按分组列出，可重新加载或关闭。会批量发布内容，请遵守各平台规则。</div>
+</div>
+<div class="bro"><div class="u"><i></i><i></i><i></i>&nbsp;侧边栏 · 标签管理</div><img src="ui-sidepanel-zh.png"></div>
+</body></html>
